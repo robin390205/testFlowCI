@@ -1,0 +1,9 @@
+# flow.ci templates
+flow:
+- envs:
+FLOW_WELCOME_MESSAGE: "hello.world"
+
+steps:
+- name: Init
+script: |
+echo ${FLOW_WELCOME_MESSAGE}
